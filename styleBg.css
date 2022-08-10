@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.block {
+    margin: 50px 150px 50px 150px;
+    width: 1440px;
+    height: 1700px;
+    background:url(Ellipse\ 1\ copy.png) #e8e8e8 60% 22% no-repeat;
+    background-size: 80%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    opacity: 0.5;
+    text-align: center;
+    padding: 168px 0 28px 0;
+    letter-spacing: 2px;
+}
+  
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    width: 736px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.667;
+    margin: auto;
+    color: #273d46;
+}
+
+.blockimg {
+    background: white;
+    width: 841px;
+    height: 561px;
+    display: flex;
+    margin: 60px auto;  
+    border: 10px solid #f6f6f6;
+    box-shadow: 1px 1px 10px 1px #cecece;
+}
+.img {
+    background: url(light-man\ copy.png) no-repeat;
+    width: 821px;
+    height: 541px;
+    border: 15px solid white
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    width: 736px;
+    line-height: 1.667;
+    text-align: left;
+    opacity: 0.8;
+    margin: 50px auto;
+    color: #273d46;
+}
+.list li {
+    font-size: 24px;
+    width: 736px;
+    line-height: 1.667;
+    text-align: left;
+    margin: auto;
+    background: url(check\ icon.png) left center no-repeat;
+    padding-left: 40px;
+}
+
+.l1 {
+    font-weight: 500;
+    color: #273d46;
+}
+.l2 {
+    font-style: italic;
+    color: #80b7b3;
+    
+}
+.l3 {
+    font-weight: 700;
+    color: #273d46;
+}
+.l4 {
+    text-decoration: line-through;
+    color: #bcbfc1;
+}
+
+.btn {
+    background: url(Shape\ 2.png) 75% 44%/9% no-repeat, 
+    url(Rounded\ Rectangle\ 1.png) 100% 100%/cover no-repeat;
+    width: 230px;
+    height: 100px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    margin: 20px 0px 0px 315px;
+    line-height: 1.667;
+    padding: 0 35px 10px 10px;
+}
